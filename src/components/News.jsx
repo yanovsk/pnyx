@@ -39,7 +39,7 @@ const News = ({ simplified }) => {
         <Col xs={24} sm={12} lg={8} key={i}>
           <Card hoverable className="news-card">
             <a href={news.url} target="_blank" rel="noreferrer">
-                <Title className="news-title" level={4}>{news.name}</Title>
+              <Title className="news-title" level={4}>{news.name}</Title>
               <p>{news.description.length > 100 ? `${news.description.substring(0, 100)}...` : news.description}</p>
               <div className="provider-container">
                 <div>
